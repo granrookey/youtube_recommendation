@@ -1,12 +1,13 @@
 # youtube_recommendation
 영상 추천 Youtube 클론페이지  
 ---
+# 역할분담
 * 조장 : 김채홍
 * 발표 : ?
 * html : ?
 * css : ?
 * js : ?
----
+
 # 브랜치 구성
 
   - html
