@@ -1,0 +1,15 @@
+코드는 강의 시간에 작성하기
+강의 끝날 때 깃 올리기
+아이콘 다운받을 때 가능한 svg 파일로 다운받기
+
+HTML
+- 뼈대 나누기(시맨틱 태그 활용)
+
+CSS
+- part1 : 공통 스타일
+- part 2 : 개별 스타일
+
+JS
+- API 확인
+- http://oreumi.appspot.com/api-docs → /video/getVideoList → execute → Request URL
+
