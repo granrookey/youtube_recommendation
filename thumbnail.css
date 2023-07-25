@@ -1,0 +1,13 @@
+section{
+    display: block;
+    padding: 32px;
+}
+
+.thumbnail-row{
+    display: flex;
+}
+
+.thumbnail-row{
+    gap: 40px;
+}
+
