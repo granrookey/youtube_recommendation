@@ -147,3 +147,41 @@ body {
     flex-shrink: 0;
     align-self: stretch;
 }
+
+/* 김채홍 탑메뉴 css 7.25 */
+#top-menu {
+    background-color: #303030;
+}
+
+.top-border {
+    width: 1200px;
+    height: 1px;
+
+    background: var(--border-color, #303030);
+}
+
+.bottom-border {
+    width: 1200px;
+    height: 1px;
+
+    background: var(--border-color, #303030);
+}
+
+.item {
+    display: inline-flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 32px;
+    border: 0.3px solid var(--gray-color, #AAA);
+    background: var(--border-color, #303030);
+
+    color: var(--white-color, #FFF);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
