@@ -93,6 +93,11 @@ body {
     align-items: center;
 }
 
+/* 0726 추가 */
+.search-btn:hover {
+    cursor: pointer;
+}
+
 .search-btn img {
     width: 24px;
     height: 24px;
