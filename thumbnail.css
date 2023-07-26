@@ -1,3 +1,5 @@
+/*썸네일 css 작성, 신지수 7.26*/
+/*썸네일 타이틀, 아이콘 크기 조절 필요*/
 a{
     text-decoration: none;
     color:white;
@@ -59,10 +61,7 @@ a{
 .thumb-user-avatar{
     text-align: center;
     margin : 5px;
-
-
 }
-
 
 .user-desc{
     text-align: left;
@@ -71,5 +70,11 @@ a{
 }
 
 .thumb-title{
-    font-size: 20px;
+    font-size: 19px;
 }
+
+.chanelname,
+.views{
+    color : var(--gray-color, #AAA);
+}
+
