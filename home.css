@@ -93,6 +93,11 @@ body {
     align-items: center;
 }
 
+/* 0726 추가 */
+.search-btn:hover {
+    cursor: pointer;
+}
+
 .search-btn img {
     width: 24px;
     height: 24px;
@@ -165,6 +170,12 @@ body {
     height: 1px;
 
     background: var(--border-color, #303030);
+}
+
+/* 아이템에 마우스 올렸을 시 색상과 배경색상 변경 김채홍 7.26 */
+.item:hover {
+    background-color: white;
+    color: #303030;
 }
 
 .item {
