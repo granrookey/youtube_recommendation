@@ -6,6 +6,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="thumbnail.css">
+    <link rel="stylesheet" href="sidebar.css">
 </head>
 <body>
 
@@ -47,102 +48,148 @@
             </div>
         </div>
     </nav>
-        
+    
+    <!-- 사이드바 추가 이준희 7.26 -->
     <nav id="sidebar">
 
-        <div class="top">
-            <ul>
-                <li><a href="home.html"><img src="">Home</a></li>
-                <li><a href=""><img src="">Explore</a></li>
-                <li><a href=""><img src="">Subscriptions</a></li>
-            </ul>
-        </div>
-
-        <div class="top-2">
-            <ul>
-                <li><a href=""><img src="">LIbrary</a></li>
-                <li><a href=""><img src="">History</a></li>
-                <li><a href=""><img src="">Your Videos</a></li>
-                <li><a href=""><img src="">Watch Later</a></li>
-                <li><a href=""><img src=""></a>Liked Videos</li>
-                <li><a href=""><img src=""></a>Show More</li>
-            </ul>
-        </div>
-
-        <div class="sub">SUBSCRIPTIONS
-            <ul>
-                <li><a href=""><img src="">James Gouse</a></li>
-                <li><a href=""><img src="">Alan Cooper</a></li>
-                <li><a href=""><img src="">Marcus Levin</a></li>
-                <li><a href=""><img src="">Alexis Sears</a></li>
-                <li><a href=""><img src="">Jesica Lambert</a></li>
-                <li><a href=""><img src="">Anna White</a></li>
-                <li><a href=""><img src="">Skylar Dias</a></li>
-                <li><a href=""><img src="">Show more</a></li>
-            </ul>
-        </div>
-
-        <div class="more-form">
-            <p class="sidebar-menu-title">MORE FROM YOUTUBE</p>
-            <ul>
-                <li><img src="">Youtube Premium</li>
-                <li><img src="">Gaming</li>
-                <li><img src="">Live</li>
-                <li><img src="">Sports</li>
-            </ul>
-        </div>
-
-        <div class="nav-bottom"></div>
-            <div>
+        <nav id="sidebar">
+            <div class="top"> 
+                <!-- 탑 클래스의 css에 마지막 부분에 구분선을 보더 바텀을 통해 넣어줌 -->
+                <!-- 메뉴 1과 2가 다른 이유는 메뉴 1에는 백그라운드 색이 들어가기 때문 -->
+                <div class="menu">
+    
+                    <!-- 아이콘 삽입 -->
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M4 10V21H10V15H14V21H20V10L12 3L4 10Z" fill="white"/>
+                    </svg></span>
+    
+                    <!-- 아이콘과 home 사이 공백을 구현하기 위해 span 태그 이용 -->
+                    <span class="menu-item"></span>
+                    
+                    <!-- home 스타일 구현 -->
+                    <div class="menu-title">
+                        <span class="menu-title-style">Home</<span> 
+                    </div>
+                    
+                </div>
+                <!-- 아래부터 반복(css값이 같기 때문에 같은 클래스 사용) -->
+                <div class="menu2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M9.8 9.8L5.97 18.03L14.2 14.2L18.03 5.97L9.8 9.8ZM13.08 12.77C12.87 13.06 12.57 13.25 12.22 13.31C12.15 13.32 12.07 13.33 12 13.33C11.72 13.33 11.46 13.25 11.23 13.08C10.94 12.87 10.75 12.57 10.69 12.22C10.63 11.87 10.71 11.51 10.92 11.23C11.13 10.94 11.43 10.75 11.78 10.69C12.13 10.63 12.48 10.71 12.77 10.92C13.06 11.13 13.25 11.43 13.31 11.78C13.37 12.13 13.29 12.48 13.08 12.77ZM12 3C16.96 3 21 7.04 21 12C21 16.96 16.96 21 12 21C7.04 21 3 16.96 3 12C3 7.04 7.04 3 12 3ZM12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2Z" fill="white"/>
+                        </svg></span>
+                        <span class="menu-item"></span>
+                    <span class="menu-title-style">Explore</<span> 
+                </div>
+    
+                <div class="menu2">
+                    
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M10 18V12L15 15L10 18ZM17 3H7V4H17V3ZM20 6H4V7H20V6ZM22 9H2V21H22V9ZM3 10H21V20H3V10Z" fill="white"/>
+                        </svg></span>
+                    <span class="menu-item"></span>
+                    <span class="menu-title-style">Subscriptions</span> 
+                </div>
+                
+            </div>
+    
+            <div class="side-border"></div>
+            <div class="top-2">
+                
+                <div class="frame1">
+                    <div class="menu2">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M11 7L17 10.5L11 14V7ZM18 20H4V6H3V21H18V20ZM21 18H6V3H21V18ZM7 17H20V4H7V17Z" fill="white"/>
+                            </svg></span>
+                        <span class="menu-item"></span>
+                        <span class=""></span>
+                    </div>
+    
+                    <div class="menu2">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="side-border"></div>
+    
+            <br>
+    
+            <div class="sub">SUBSCRIPTIONS
                 <ul>
-                    <li><img src="">Send feedback</li>
-                    <li><img src="">Help</li>
-                    <li><img src="">Report history</li>
-                    <li><img src="">Settings</li>
+                    <li><a href=""><img src="">James Gouse</a></li>
+                    <li><a href=""><img src="">Alan Cooper</a></li>
+                    <li><a href=""><img src="">Marcus Levin</a></li>
+                    <li><a href=""><img src="">Alexis Sears</a></li>
+                    <li><a href=""><img src="">Jesica Lambert</a></li>
+                    <li><a href=""><img src="">Anna White</a></li>
+                    <li><a href=""><img src="">Skylar Dias</a></li>
+                    <li><a href=""><img src="">Show more</a></li>
                 </ul>
             </div>
-
-        <div class="nav-footer"></div>
-
-        <div>
-            <span><a href="">About</a></<span>
-            <span><a href="">Press</a></<span>
-            <span><a href="">Copyright</a></span>
-        </div>
-
-        <div>
-            <span><a href="">Contact us</a></<span>
-            <span><a href="">Creators</a></<span>
-        </div>
-
-        <div>
-            <span><a href="">Advertise</a></<span>
-            <span><a href="">Developers</a></<span>
-        </div>
-
-        <br>
-
-        <div>
-            <span><a href="">Terms</a></<span>
-            <span><a href="">Privacy</a></<span>
-            <span><a href="">Policy & Safety</a></<span>
-        </div>
-
-        <div>
-            <span><a href="">How Youtube works</a></<span>
-        </div>
-
-        <div>
-            <span><a href="">Test new features</a></<span>
-        </div>
-
-        <br>
-
-        <div>
-            <span>© 2021 Google LLC</span>
-        </div>
-
-    </nav>
+    
+            <div class="more-form">
+                <p class="sidebar-menu-title">MORE FROM YOUTUBE</p>
+                <ul>
+                    <li><img src="">Youtube Premium</li>
+                    <li><img src="">Gaming</li>
+                    <li><img src="">Live</li>
+                    <li><img src="">Sports</li>
+                </ul>
+            </div>
+    
+            <div class="nav-bottom"></div>
+                <div>
+                    <ul>
+                        <li><img src="">Send feedback</li>
+                        <li><img src="">Help</li>
+                        <li><img src="">Report history</li>
+                        <li><img src="">Settings</li>
+                    </ul>
+                </div>
+    
+            <div class="nav-footer"></div>
+    
+            <div>
+                <span><a href="">About</a></<span>
+                <span><a href="">Press</a></<span>
+                <span><a href="">Copyright</a></span>
+            </div>
+    
+            <div>
+                <span><a href="">Contact us</a></<span>
+                <span><a href="">Creators</a></<span>
+            </div>
+    
+            <div>
+                <span><a href="">Advertise</a></<span>
+                <span><a href="">Developers</a></<span>
+            </div>
+    
+            <br>
+    
+            <div>
+                <span><a href="">Terms</a></<span>
+                <span><a href="">Privacy</a></<span>
+                <span><a href="">Policy & Safety</a></<span>
+            </div>
+    
+            <div>
+                <span><a href="">How Youtube works</a></<span>
+            </div>
+    
+            <div>
+                <span><a href="">Test new features</a></<span>
+            </div>
+    
+            <br>
+    
+            <div>
+                <span>© 2021 Google LLC</span>
+            </div>
+    
+        </nav>
 
     <!-- 탑 메뉴 추가 김채홍 7.25-->
     <header id="top-menu">
