@@ -1,3 +1,5 @@
+// 썸네일 api 연결, 동영상 id 지정 // 신지수 7.26
+
 function getVideoInfo(videoId) {
     // API URL
     let apiUrl = 'http://oreumi.appspot.com/video/getVideoInfo?video_id=' + videoId;
