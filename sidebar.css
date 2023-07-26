@@ -1,0 +1,83 @@
+
+body {
+    background-color: #000;
+}
+
+
+#sidebar {
+    display: flex;
+    width: 240px;
+    height: 968px;
+    padding-right: 0px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: #212121;
+}
+
+.top {
+    display: flex;
+    padding-bottom: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    /* 중간에 구분선을 넣어줌 */
+    /* border-bottom: 1px solid #303030; */
+}
+
+.menu {
+    display: flex;
+    padding: 8px 8px 8px 24px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    background: var(--border-color, #303030);
+}
+
+.menu2 {
+    display: flex;
+    padding: 8px 8px 8px 24px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+
+
+.menu-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+.menu-title{
+    display: flex;
+    width: 144px;
+    padding: 4px 0px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.menu-title-style{
+    color: var(--white-color, #FFF);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.side-border{
+    border-top: 1px solid #303030;
+    width: 224px;
+    height: 1px;
+}
