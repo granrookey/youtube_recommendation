@@ -39,6 +39,17 @@ function getVideoInfo(videoId) {
   });
 }
 
-for (let videoId = 1; videoId <= 16; videoId++) {
-  getVideoInfo(videoId);
+// 속성값을 지정하지 않아도 동영상을 불러올 수 있도록 설정
+function setDataVideoId() {
+  const thumnailItems = document.querySelectorAll(".thumbnail-item");
+  thumnailItems.forEach(
+      (element, index) => {
+          element.setAttribute('data-video-id', index);
+          console.log(element);
+      }
+  );
+}
+setDataVideoId()
+for (let videoId = 0; videoId <= 19; videoId++) {
+    getVideoInfo(videoId);
 }
