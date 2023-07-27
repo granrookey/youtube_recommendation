@@ -1,0 +1,6 @@
+*.html
+*.js
+/home.css
+/reset.css
+/thumbnail.css
+/svg
