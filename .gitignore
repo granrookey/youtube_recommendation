@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 *.html
 *.css
 .DS_Store
-=======
-.DS_STORE
-*.html
-*.css
->>>>>>> parent of 05e7094 (reset)
