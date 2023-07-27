@@ -1,162 +1,580 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" hres="reset.css">
+    <link rel="stylesheet" hres="reset.css" />
     <!-- <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="sidebar.css"> -->
-    <link rel="stylesheet" href="channel.css">
-
-    
-</head>
-<body>
-
+    <link rel="stylesheet" href="channel.css" />
+  </head>
+  <body>
     <!--검색창, 사이드바 완성된것 추가하기-->
 
-
     <div class="channel">
-        <div class="channel-cover">
-            <img src="channel-cover.png" alt="image">
+      <div class="channel-cover">
+        <img src="channel-cover.png" alt="image" />
+      </div>
+      <div class="channel-title">
+        <div class="channel-profile">
+          <div><img src="oreumi.png" /></div>
+          <div>
+            <div class="chanelname">채널 이름</div>
+            <div class="subsc-count">구독자 수</div>
+          </div>
         </div>
-        <div class="channel-title">
-            <div class="channel-profile">
-                <div><img src="oreumi.png"></div>
-                <div>
-                    <div class="chanelname">채널 이름</div>
-                    <div class="subsc-count">구독자 수</div>
-                </div>
-            </div>
-            <div class="subsc-btn">SUBSCRIBES</div>
-        </div>
-        <div class="channel-toolbar">
-            <div class="toolbars">
-                <div class="toolbar-menu">
-                    <div id="toobar-home">HOME</div>
-                    <div class="border"></div>
-                </div>
-                <div class="toolbar-menu">
-                    <div>VIDEOS</div>
-                </div>
-                <div class="toolbar-menu">
-                    <div>PLAYLISTS</div>
-                </div>
-                <div class="toolbar-menu">
-                    <div>COMMUNITY</div>
-                </div>
-                <div class="toolbar-menu">
-                    <div>CHANNELS</div>
-                </div>
-                <div class="toolbar-menu">
-                    <div>ABOUT</div>
-                </div> 
-            </div>
-            <div class="channel-search">
-                <div class="c-search-icon"><img src="search-icon.svg"></div>
-                <div class="c-search-btn"><img src="leftarrow.svg"></div>
-            </div>
-        </div>
-        <div class="small-video">
-            <div class="s-video"><iframe>동영상</iframe></div>
-            <div class="video-desc">
-                <div class="video-title">제목</div><br>
-                <div class="video-time">
-                    <sapn class="views">뷰</sapn>
-                    <sapn class="upload-date">업로드 날짜</sapn><br>
-                </div>
-                <div class="video-detail"><br>요약</div>
-            </div>
-        </div>
-        <div class="play-list">
+        <div class="subsc-btn">SUBSCRIBES</div>
+      </div>
+      <div class="channel-toolbar">
+        <div class="toolbars">
+          <div class="toolbar-menu" id="toobar-home">
+            <div>HOME</div>
             <div class="border"></div>
-            <div class="play-list-row">
-                <div class="play-list-info">
-                    <div class="play-list-title">토끼의 모든것</div>
-                    <div class="play-list-btn"><img src="play-icon.svg">PLAY ALL</div>
-                </div>
-                <div class="play-list-video">
-                    <div class="xsmall-video">
-                        <div class="thumb-vedio">
-                            <div class="thumbnail-img">
-                                <img src="" class="thumbnailImage">
-                                <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="thumb-vedio-info">
-                            <div class="thumb-vedio-info-content">
-                                <a href="#" class="thumb-title">영상 이름</a>
-                                <a href="#" class="chanelname">채널 이름</a>
-                                <a href="#" class="views">뷰 숫자</a>    
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xsmall-video">
-                        <div class="thumb-vedio">
-                            <div class="thumbnail-img">
-                                <img src="" class="thumbnailImage">
-                                <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="thumb-vedio-info">
-                            <div class="thumb-vedio-info-content">
-                                <a href="#" class="thumb-title">영상 이름</a>
-                                <a href="#" class="chanelname">채널 이름</a>
-                                <a href="#" class="views">뷰 숫자</a>    
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xsmall-video">
-                        <div class="thumb-vedio">
-                            <div class="thumbnail-img">
-                                <img src="" class="thumbnailImage">
-                                <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="thumb-vedio-info">
-                            <div class="thumb-vedio-info-content">
-                                <a href="#" class="thumb-title">영상 이름</a>
-                                <a href="#" class="chanelname">채널 이름</a>
-                                <a href="#" class="views">뷰 숫자</a>    
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xsmall-video">
-                        <div class="thumb-vedio">
-                            <div class="thumbnail-img">
-                                <img src="" class="thumbnailImage">
-                                <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="thumb-vedio-info">
-                            <div class="thumb-vedio-info-content">
-                                <a href="#" class="thumb-title">영상 이름</a>
-                                <a href="#" class="chanelname">채널 이름</a>
-                                <a href="#" class="views">뷰 숫자</a>    
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xsmall-video">
-                        <div class="thumb-vedio">
-                            <div class="thumbnail-img">
-                                <img src="" class="thumbnailImage">
-                                <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="thumb-vedio-info">
-                            <div class="thumb-vedio-info-content">
-                                <a href="#" class="thumb-title">영상 이름</a>
-                                <a href="#" class="chanelname">채널 이름</a>
-                                <a href="#" class="views">뷰 숫자</a>    
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="border"></div>
+          </div>
+          <div class="toolbar-menu">
+            <div>VIDEOS</div>
+          </div>
+          <div class="toolbar-menu">
+            <div>PLAYLISTS</div>
+          </div>
+          <div class="toolbar-menu">
+            <div>COMMUNITY</div>
+          </div>
+          <div class="toolbar-menu">
+            <div>CHANNELS</div>
+          </div>
+          <div class="toolbar-menu">
+            <div>ABOUT</div>
+          </div>
         </div>
+        <div class="channel-search">
+          <div class="c-search-icon"><img src="search-icon.svg" /></div>
+          <div class="c-search-btn"><img src="leftarrow.svg" /></div>
+        </div>
+      </div>
+      <div class="small-video">
+        <div class="s-video"><iframe>동영상</iframe></div>
+        <div class="video-desc">
+          <div class="video-title">제목</div>
+          <br />
+          <div class="video-time">
+            <sapn class="views">뷰</sapn>
+            <sapn class="upload-date">업로드 날짜</sapn><br />
+          </div>
+          <div class="video-detail"><br />요약</div>
+        </div>
+      </div>
+      <div class="play-list">
+        <div class="long-border"></div>
+        <div class="play-list-row">
+          <div class="play-list-info">
+            <div class="play-list-title">토끼의 모든것</div>
+            <div class="play-list-btn">
+              <div><img src="play-icon.svg" /></div>
+              <div>PLAY ALL</div>
+            </div>
+          </div>
+          <div class="play-list-video">
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <!-- <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe> -->
+                  <iframe
+                    width="1317"
+                    height="723"
+                    src="https://www.youtube.com/embed/dJdqn5v4Dkw"
+                    title="NewJeans (뉴진스) &#39;ASAP&#39; Official MV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <!--test 동영상-->
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="s-views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <!-- <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe> -->
+                  <iframe
+                    width="1317"
+                    height="723"
+                    src="https://www.youtube.com/embed/dJdqn5v4Dkw"
+                    title="NewJeans (뉴진스) &#39;ASAP&#39; Official MV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <!--test 동영상-->
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="s-views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <!-- <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe> -->
+                  <iframe
+                    width="1317"
+                    height="723"
+                    src="https://www.youtube.com/embed/dJdqn5v4Dkw"
+                    title="NewJeans (뉴진스) &#39;ASAP&#39; Official MV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <!--test 동영상-->
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="s-views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <iframe
+                    src=""
+                    class="videoFrame"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <iframe
+                    src=""
+                    class="videoFrame"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="long-border"></div>
+        <div class="play-list-row">
+          <div class="play-list-info">
+            <div class="play-list-title">토끼의 모든것</div>
+            <div class="play-list-btn">
+              <div><img src="play-icon.svg" /></div>
+              <div>PLAY ALL</div>
+            </div>
+          </div>
+          <div class="play-list-video">
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <!-- <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe> -->
+                  <iframe
+                    width="1317"
+                    height="723"
+                    src="https://www.youtube.com/embed/dJdqn5v4Dkw"
+                    title="NewJeans (뉴진스) &#39;ASAP&#39; Official MV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <!--test 동영상-->
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="s-views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <!-- <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe> -->
+                  <iframe
+                    width="1317"
+                    height="723"
+                    src="https://www.youtube.com/embed/dJdqn5v4Dkw"
+                    title="NewJeans (뉴진스) &#39;ASAP&#39; Official MV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <!--test 동영상-->
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="s-views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <!-- <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe> -->
+                  <iframe
+                    width="1317"
+                    height="723"
+                    src="https://www.youtube.com/embed/dJdqn5v4Dkw"
+                    title="NewJeans (뉴진스) &#39;ASAP&#39; Official MV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <!--test 동영상-->
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="s-views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <iframe
+                    src=""
+                    class="videoFrame"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <iframe
+                    src=""
+                    class="videoFrame"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="long-border"></div>
+        <div class="play-list-row">
+          <div class="play-list-info">
+            <div class="play-list-title">토끼의 모든것</div>
+            <div class="play-list-btn">
+              <div><img src="play-icon.svg" /></div>
+              <div>PLAY ALL</div>
+            </div>
+          </div>
+          <div class="play-list-video">
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <!-- <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe> -->
+                  <iframe
+                    width="1317"
+                    height="723"
+                    src="https://www.youtube.com/embed/dJdqn5v4Dkw"
+                    title="NewJeans (뉴진스) &#39;ASAP&#39; Official MV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <!--test 동영상-->
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="s-views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <!-- <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe> -->
+                  <iframe
+                    width="1317"
+                    height="723"
+                    src="https://www.youtube.com/embed/dJdqn5v4Dkw"
+                    title="NewJeans (뉴진스) &#39;ASAP&#39; Official MV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <!--test 동영상-->
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="s-views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <!-- <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe> -->
+                  <iframe
+                    width="1317"
+                    height="723"
+                    src="https://www.youtube.com/embed/dJdqn5v4Dkw"
+                    title="NewJeans (뉴진스) &#39;ASAP&#39; Official MV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <!--test 동영상-->
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="s-views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <iframe
+                    src=""
+                    class="videoFrame"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <iframe
+                    src=""
+                    class="videoFrame"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="long-border"></div>
+        <div class="play-list-row">
+          <div class="play-list-info">
+            <div class="play-list-title">토끼의 모든것</div>
+            <div class="play-list-btn">
+              <div><img src="play-icon.svg" /></div>
+              <div>PLAY ALL</div>
+            </div>
+          </div>
+          <div class="play-list-video">
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <!-- <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe> -->
+                  <iframe
+                    width="1317"
+                    height="723"
+                    src="https://www.youtube.com/embed/dJdqn5v4Dkw"
+                    title="NewJeans (뉴진스) &#39;ASAP&#39; Official MV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <!--test 동영상-->
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="s-views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <!-- <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe> -->
+                  <iframe
+                    width="1317"
+                    height="723"
+                    src="https://www.youtube.com/embed/dJdqn5v4Dkw"
+                    title="NewJeans (뉴진스) &#39;ASAP&#39; Official MV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <!--test 동영상-->
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="s-views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <!-- <iframe src="" class="videoFrame" frameborder="0" allowfullscreen></iframe> -->
+                  <iframe
+                    width="1317"
+                    height="723"
+                    src="https://www.youtube.com/embed/dJdqn5v4Dkw"
+                    title="NewJeans (뉴진스) &#39;ASAP&#39; Official MV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                  <!--test 동영상-->
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="s-views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <iframe
+                    src=""
+                    class="videoFrame"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+            <div class="xsmall-video">
+              <div class="s-vedio">
+                <div class="thumbnail-img">
+                  <img src="" class="thumbnailImage" />
+                  <iframe
+                    src=""
+                    class="videoFrame"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div class="s-vedio-info">
+                <div class="s-vedio-info-content">
+                  <a href="#" class="s-thumb-title">영상 이름</a>
+                  <a href="#" class="s-chanelname">채널 이름</a>
+                  <a href="#" class="views">뷰 숫자</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src=""></script>
@@ -164,6 +582,5 @@
     <!-- <script src="thumb.js"></script>
     <script src="search.js"></script> -->
     <!-- <script src="search_2.js"></script>-->
-
-</body>
+  </body>
 </html>
