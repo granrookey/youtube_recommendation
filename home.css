@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* css 추가 0727 허유미 */
 html {
     height: 200%;
@@ -18,6 +19,12 @@ main {
 }
 
 /* masthead 부분 css 작성 0725 허유미 */
+=======
+body {
+    background-color: #000;
+}
+
+>>>>>>> js_1
 /* id, class 이름 변경 반영 0727 허유미 */
 #masthead {
     display: flex;
@@ -32,7 +39,10 @@ main {
     display: inline-flex;
     padding-right: 0px;
     align-items: center;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> js_1
 }
 
 #menu-icon {
@@ -109,6 +119,13 @@ main {
     background-color: #303030;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
+=======
+}
+
+/* 0726 추가 */
+.search-btn:hover {
+>>>>>>> js_1
     cursor: pointer;
 }
 
@@ -125,7 +142,10 @@ main {
     gap: 10px;
     border-radius: 40px;
     background-color: #000;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> js_1
 }
 
 .search-mic img {
@@ -147,7 +167,10 @@ main {
     display: flex;
     padding: 8px;
     gap: 10px;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> js_1
 }
 
 .profile img {
@@ -158,7 +181,10 @@ main {
 .profile-user-avatar {
     display: flex;
     padding: 4px 10px;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> js_1
 }
 
 .profile-user-avatar img {
@@ -173,6 +199,7 @@ main {
 /* 김채홍 탑메뉴 css 7.25 */
 #top-menu {
     background-color: #303030;
+<<<<<<< HEAD
     width: 100%;
     height: 58px;
 }
@@ -182,6 +209,21 @@ main {
 .bottom-border {
     width: 100%;   /* 속성변경 허유미 07.27 */
     height: 1px;
+=======
+}
+
+.top-border {
+    width: 1200px;
+    height: 1px;
+
+    background: var(--border-color, #303030);
+}
+
+.bottom-border {
+    width: 1200px;
+    height: 1px;
+
+>>>>>>> js_1
     background: var(--border-color, #303030);
 }
 
@@ -189,7 +231,10 @@ main {
 .item:hover {
     background-color: white;
     color: #303030;
+<<<<<<< HEAD
     cursor: pointer;  /* 요소 추가 허유미 07.27 */
+=======
+>>>>>>> js_1
 }
 
 .item {
@@ -210,4 +255,7 @@ main {
     font-weight: 400;
     line-height: normal;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> js_1
