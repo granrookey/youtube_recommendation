@@ -2,7 +2,8 @@ body {
     background-color: #000;
 }
 
-#navigations {
+/* id, class 이름 변경 반영 0727 허유미 */
+#masthead {
     display: flex;
     justify-content: space-between;
     background: #212121;
@@ -11,7 +12,7 @@ body {
     flex-shrink: 0;
 }
 
-.nav-yt-btn {
+.head-yt-btn {
     display: inline-flex;
     padding-right: 0px;
     align-items: center;
@@ -42,7 +43,7 @@ body {
     height: 20px;
 }
 
-.nav-searchbox {
+.head-searchbox {
     display: flex;
     margin: 8px;
     width: 470px;
@@ -118,7 +119,7 @@ body {
     height: 24px;
 }
 
-.nav-profile {
+.head-profile {
     display: flex;
     width: 204px;
     height: 56px;
