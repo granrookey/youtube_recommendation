@@ -206,6 +206,7 @@ a{
     color:#fff;
 }
 
+/* 공통 배경 속성 추가 0728 허유미 */
 .channel-cover,
 .channel-title,
 .channel-toolbar {
@@ -300,7 +301,8 @@ a{
 
 .toolbar-menu{
     color : #AAA;
-    /* border : solid 1px #242424; */
+    /* border : solid 1px #242424; */  
+    /* 피그마, 공식 유튜브에는 border 없어서 삭제 0728 허유미 */
     padding-left: 30px;
     padding-right: 40px;
     padding-top: 18px;
