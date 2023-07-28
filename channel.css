@@ -27,7 +27,7 @@ main {
 #masthead {
     display: flex;
     justify-content: space-between;
-    background: #333333;
+    background: #212121;
     width: 100%;
     height: 56px;
     flex-shrink: 0;
@@ -89,7 +89,7 @@ main {
     padding: 6px;
     flex-shrink: 0;
     border-radius: 2px 0px 0px 2px;
-    border: 1px solid #484848;
+    border: 1px solid #303030;
     background-color: #121212;
     color: white;
     font-size: 16px;
@@ -111,7 +111,7 @@ main {
     gap: 10px;
     flex-shrink: 0;
     border-radius: 0px 2px 2px 0px;
-    background-color: #484848;
+    background-color: #303030;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -175,12 +175,12 @@ main {
     align-self: stretch;
 }
  /* 공통된 css 하나로 묶음 허유미 07.27 */
- .top-border,
- .bottom-border {
+.top-border,
+.bottom-border {
      width: 100%;   /* 속성변경 허유미 07.27 */
-     height: 1px;
-     background: var(--border-color, #333333);
- }
+    height: 1px;
+    background: var(--border-color, #303030);
+}
 
 /*채널 css*//*채널 css*//*채널 css*/
 .channel{
@@ -188,7 +188,7 @@ main {
     /* overflow: hidden; */
     font-family: Roboto;
     font-style: normal;
-    background-color: black;
+    background-color: #000;
     grid-template-areas: 
             "channel-cover"
             "channel-title"
@@ -204,6 +204,12 @@ main {
 a{
     text-decoration: none;
     color:#fff;
+}
+
+.channel-cover,
+.channel-title,
+.channel-toolbar {
+    background-color: #181818;
 }
 
 .channel-cover{
@@ -228,7 +234,7 @@ a{
 
 .channel-title,
 .channel-toolbar{
-    background-color: #242424;
+    background-color: #181818;
 }
 .channel-title{
     display: flex;
@@ -257,7 +263,7 @@ a{
 .subsc-btn{
     display: inline-block;
     padding: 10px 20px;
-    background-color: #C00;
+    background-color: #cc0000;
     color: #fff;
     font-size: 16px;
     border: none;
@@ -294,7 +300,7 @@ a{
 
 .toolbar-menu{
     color : #AAA;
-    border : solid 1px #242424;
+    /* border : solid 1px #242424; */
     padding-left: 30px;
     padding-right: 40px;
     padding-top: 18px;
