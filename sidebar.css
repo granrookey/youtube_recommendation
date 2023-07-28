@@ -10,6 +10,11 @@
     align-items: flex-start;
     flex-shrink: 0;
     background-color: #212121;
+    
+    /* position: fixed; */
+    width: 240px;
+    overflow: hidden;
+    transition: .5s;
 }
 
 .top {
@@ -29,6 +34,7 @@
     background: var(--border-color, #303030);
     border-radius: 10px;
     border: none;
+    align-items: center;
 }
 
 .menu:hover{
@@ -46,6 +52,7 @@
     border: none;
     border-radius: 10px;
     background-color: #212121;
+    align-items: center;
 }
 
 .menu2:hover{
