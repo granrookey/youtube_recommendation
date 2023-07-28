@@ -22,7 +22,7 @@ main {
 #masthead {
     display: flex;
     justify-content: space-between;
-    background: #212121;
+    background: #333333;
     width: 100%;
     height: 56px;
     flex-shrink: 0;
@@ -84,7 +84,7 @@ main {
     padding: 6px;
     flex-shrink: 0;
     border-radius: 2px 0px 0px 2px;
-    border: 1px solid #303030;
+    border: 1px solid #484848;
     background-color: #121212;
     color: white;
     font-size: 16px;
@@ -106,7 +106,7 @@ main {
     gap: 10px;
     flex-shrink: 0;
     border-radius: 0px 2px 2px 0px;
-    background-color: #303030;
+    background-color: #484848;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -172,7 +172,7 @@ main {
 
 /* 김채홍 탑메뉴 css 7.25 */
 #top-menu {
-    background-color: #303030;
+    background-color: #333333;
     width: 100%;
     height: 58px;
 }
@@ -182,7 +182,7 @@ main {
 .bottom-border {
     width: 100%;   /* 속성변경 허유미 07.27 */
     height: 1px;
-    background: var(--border-color, #303030);
+    background: var(--border-color, #333333);
 }
 
 /* 아이템에 마우스 올렸을 시 색상과 배경색상 변경 김채홍 7.26 */
@@ -201,7 +201,7 @@ main {
 
     border-radius: 32px;
     border: 0.3px solid var(--gray-color, #AAA);
-    background: var(--border-color, #303030);
+    background: var(--border-color, #333333);
 
     color: var(--white-color, #FFF);
     font-family: Roboto;
@@ -210,4 +210,3 @@ main {
     font-weight: 400;
     line-height: normal;
 }
-
